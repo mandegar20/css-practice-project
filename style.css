@@ -1,3 +1,7 @@
+:root {
+  --red: #ff3838;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +13,7 @@ html {
   color: #444;
 }
 
-.container {
+.navigation {
   margin: 0 auto;
   width: 1200px;
 }
@@ -26,6 +30,28 @@ header {
     url(hero.jpg);
   background-size: cover;
   color: #fff;
+}
+nav .logo {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #ddd;
+}
+
+nav .logo i {
+  padding-right: 0.5rem;
+  color: var(--red);
+}
+
+nav .navbar a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  color: #ddd;
+}
+
+nav .navbar a:hover {
+  color: var(--red);
 }
 
 nav {
